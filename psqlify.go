@@ -84,7 +84,7 @@ func (p *PSQLModule) generateFiles(
 	p.CheckErr(pgs.Walk(v, f), "unable to generate psql")
 
 	filePath := f.InputPath().String()
-	outName := f.InputPath().BaseName() + ".pb.psql"
+	outName := f.InputPath().BaseName() + ".pb.sql"
 
 	if outInit, count := getStringBufferWithHeader(bufInit, filePath); count != 0 {
 		p.AddGeneratorFile(
