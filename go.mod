@@ -1,4 +1,4 @@
-module github.com/intrinsec/protoc-gen-psql
+module github.com/alileza/protoc-gen-psql
 
 go 1.17
 
