@@ -10,7 +10,7 @@ import (
 
 	"bytes"
 
-	psql "github.com/intrinsec/protoc-gen-psql/psql"
+	psql "github.com/alileza/protoc-gen-psql/psql"
 	pgs "github.com/lyft/protoc-gen-star"
 )
 
